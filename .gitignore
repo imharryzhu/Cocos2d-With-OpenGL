@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+
+# TMP
+proj.android
+proj.linux
+proj.win32
+
+
+
+
