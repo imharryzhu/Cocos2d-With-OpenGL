@@ -39,4 +39,8 @@ proj.win32
 
 
 
-
+# XCode
+xcuserdata
+*.moved-aside
+*.xcuserstate
+*.xccheckout
