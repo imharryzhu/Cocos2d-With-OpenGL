@@ -110,6 +110,17 @@ Director* Director::getInstance()
     return s_SharedDirector;
 }
 
+Director* Director::setInstance(Director* ins)
+{
+    if (s_SharedDirector) {
+        delete s_SharedDirector;
+        s_SharedDirector = nullptr;
+    }
+    
+    s_SharedDirector = ins;
+    return s_SharedDirector;
+}
+
 Director::Director()
 {
 }

@@ -141,6 +141,8 @@ public:
      * @js _getInstance
      */
     static Director* getInstance();
+    
+    static Director* setInstance(Director* ins);
 
     /**
      * @deprecated Use getInstance() instead.
@@ -365,7 +367,7 @@ public:
     /** Draw the scene.
      * This method is called every frame. Don't call it manually.
      */
-    void drawScene();
+    virtual void drawScene();
 
     // Memory Helper
 

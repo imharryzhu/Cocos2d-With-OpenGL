@@ -17,6 +17,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */; };
+		4A42EA72233F504600DFB4FA /* DirectorCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */; };
 		4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA636D233E72D90020207B /* AppDelegate.cpp */; };
 		4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA636D233E72D90020207B /* AppDelegate.cpp */; };
 		4AAA6372233E73D60020207B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAA6360233E71390020207B /* libcocos2d Mac.a */; };
@@ -99,6 +101,8 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		4A42EA6F233F504600DFB4FA /* DirectorCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectorCustom.h; sourceTree = "<group>"; };
+		4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DirectorCustom.cpp; sourceTree = "<group>"; };
 		4AAA6359233E71390020207B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../Engine/cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		4AAA636C233E72D90020207B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AAA636D233E72D90020207B /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 			children = (
 				4AAA636C233E72D90020207B /* AppDelegate.h */,
 				4AAA636D233E72D90020207B /* AppDelegate.cpp */,
+				4A42EA6F233F504600DFB4FA /* DirectorCustom.h */,
+				4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -398,6 +404,7 @@
 			files = (
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */,
+				4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
 			);
@@ -408,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				4A42EA72233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
 				4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
