@@ -23,8 +23,6 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
 *.exe
@@ -36,6 +34,10 @@
 proj.android
 proj.linux
 proj.win32
+**/prebuilt/android
+**/prebuilt/win10
+**/libraries
+**/win10-specific
 
 
 
