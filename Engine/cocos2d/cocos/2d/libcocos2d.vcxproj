@@ -1432,14 +1432,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\uv\prebuilt\win32\*.*" "$(OutDir)"</Com
     <None Include="..\math\Vec4.inl" />
     <None Include="cocos2d.def" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\external\recast\proj.win32\librecast.vcxproj">
-      <Project>{41e34993-647e-4282-8384-4ab1ae31a452}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\editor-support\spine\proj.win32\libSpine.vcxproj">
-      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
