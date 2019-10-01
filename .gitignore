@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -33,13 +32,13 @@
 # TMP
 proj.android
 proj.linux
-proj.win32
 **/prebuilt/android
 **/prebuilt/win10
 **/libraries
-**/win10-specific
-
-
+**/external/win10-specific
+**/Debug.win32
+proj.win32/.vs/*
+*.vcxproj.user
 
 # XCode
 xcuserdata
