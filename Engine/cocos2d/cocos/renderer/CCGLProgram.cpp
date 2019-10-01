@@ -180,7 +180,7 @@ GLProgram* GLProgram::createWithByteArrays(const GLchar* vShaderByteArray, const
 {
     auto ret = new (std::nothrow) GLProgram();
     if(ret && ret->initWithByteArrays(vShaderByteArray, fShaderByteArray, compileTimeHeaders, compileTimeDefines)) {
-        ret->link();
+		ret->link();
         ret->updateUniforms();
         ret->autorelease();
         return ret;

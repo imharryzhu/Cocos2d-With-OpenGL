@@ -24,6 +24,8 @@
 
 #include "AppDelegate.h"
 #include "DirectorCustom.h"
+#include "Demo1.h"
+#include "Demo2.h"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -83,7 +85,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //    director->init();
 //    Director::setInstance(director);
     
-    auto director = Director::setInstance(DirectorCustom::create());
+	DirectorCustom* director = (DirectorCustom*) Director::setInstance(DirectorCustom::create());
     
     auto glview = director->getOpenGLView();
     if(!glview) {
@@ -121,6 +123,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
 
     register_all_packages();
+
+
+	director->runDemo(new Demo2);
 
     return true;
 }

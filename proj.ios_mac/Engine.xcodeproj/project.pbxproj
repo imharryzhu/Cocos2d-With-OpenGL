@@ -19,6 +19,10 @@
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
 		4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */; };
 		4A42EA72233F504600DFB4FA /* DirectorCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */; };
+		4A8251FC2347A65C005BD943 /* DemoBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8251FB2347A65C005BD943 /* DemoBase.cpp */; };
+		4A8251FD2347A65C005BD943 /* DemoBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8251FB2347A65C005BD943 /* DemoBase.cpp */; };
+		4A8252042347A6DC005BD943 /* Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8252032347A6DC005BD943 /* Demo1.cpp */; };
+		4A8252052347A6DC005BD943 /* Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8252032347A6DC005BD943 /* Demo1.cpp */; };
 		4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA636D233E72D90020207B /* AppDelegate.cpp */; };
 		4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA636D233E72D90020207B /* AppDelegate.cpp */; };
 		4AAA6372233E73D60020207B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAA6360233E71390020207B /* libcocos2d Mac.a */; };
@@ -103,6 +107,10 @@
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		4A42EA6F233F504600DFB4FA /* DirectorCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectorCustom.h; sourceTree = "<group>"; };
 		4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DirectorCustom.cpp; sourceTree = "<group>"; };
+		4A8251FA2347A65C005BD943 /* DemoBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBase.h; sourceTree = "<group>"; };
+		4A8251FB2347A65C005BD943 /* DemoBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemoBase.cpp; sourceTree = "<group>"; };
+		4A8252022347A6DC005BD943 /* Demo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1.h; sourceTree = "<group>"; };
+		4A8252032347A6DC005BD943 /* Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1.cpp; sourceTree = "<group>"; };
 		4AAA6359233E71390020207B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../Engine/cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		4AAA636C233E72D90020207B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AAA636D233E72D90020207B /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -237,6 +245,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4A8251F92347A63F005BD943 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A8251FA2347A65C005BD943 /* DemoBase.h */,
+				4A8251FB2347A65C005BD943 /* DemoBase.cpp */,
+				4A8252022347A6DC005BD943 /* Demo1.h */,
+				4A8252032347A6DC005BD943 /* Demo1.cpp */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		4AAA635A233E71390020207B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +269,7 @@
 		4AAA6369233E72D80020207B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4A8251F92347A63F005BD943 /* Example */,
 				4AAA636C233E72D90020207B /* AppDelegate.h */,
 				4AAA636D233E72D90020207B /* AppDelegate.cpp */,
 				4A42EA6F233F504600DFB4FA /* DirectorCustom.h */,
@@ -405,6 +425,8 @@
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */,
 				4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
+				4A8252042347A6DC005BD943 /* Demo1.cpp in Sources */,
+				4A8251FC2347A65C005BD943 /* DemoBase.cpp in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
 			);
@@ -416,7 +438,9 @@
 			files = (
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				4A42EA72233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
+				4A8252052347A6DC005BD943 /* Demo1.cpp in Sources */,
 				4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */,
+				4A8251FD2347A65C005BD943 /* DemoBase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

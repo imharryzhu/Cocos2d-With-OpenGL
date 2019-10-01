@@ -7,30 +7,51 @@
     <Filter Include="resource">
       <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{851b58b6-ae6e-4aae-a886-a39110ca5486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example">
+      <UniqueIdentifier>{dfbd4d00-4bdc-4cbf-bb91-748e88d35dc9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\DirectorCustom.cpp">
-      <Filter>src</Filter>
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example\Demo1.cpp">
+      <Filter>Classes\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example\DemoBase.cpp">
+      <Filter>Classes\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example\Demo2.cpp">
+      <Filter>Classes\Example</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>win32</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\DirectorCustom.h">
-      <Filter>src</Filter>
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example\Demo1.h">
+      <Filter>Classes\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example\DemoBase.h">
+      <Filter>Classes\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example\Demo2.h">
+      <Filter>Classes\Example</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
