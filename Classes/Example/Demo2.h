@@ -10,7 +10,9 @@
 #include "DemoBase.h"
 #include "renderer/CCGLProgram.h"
 
-class cocos2d::GLProgram;
+namespace cocos2d {
+class GLProgram;
+};
 
 class Demo2 : public Demo
 {

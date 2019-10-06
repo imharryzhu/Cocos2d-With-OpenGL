@@ -23,6 +23,8 @@
 		4A8251FD2347A65C005BD943 /* DemoBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8251FB2347A65C005BD943 /* DemoBase.cpp */; };
 		4A8252042347A6DC005BD943 /* Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8252032347A6DC005BD943 /* Demo1.cpp */; };
 		4A8252052347A6DC005BD943 /* Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8252032347A6DC005BD943 /* Demo1.cpp */; };
+		4A82520C2348ED13005BD943 /* Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8252092348ED13005BD943 /* Demo2.cpp */; };
+		4A82520D2348ED13005BD943 /* Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8252092348ED13005BD943 /* Demo2.cpp */; };
 		4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA636D233E72D90020207B /* AppDelegate.cpp */; };
 		4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA636D233E72D90020207B /* AppDelegate.cpp */; };
 		4AAA6372233E73D60020207B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAA6360233E71390020207B /* libcocos2d Mac.a */; };
@@ -111,6 +113,8 @@
 		4A8251FB2347A65C005BD943 /* DemoBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemoBase.cpp; sourceTree = "<group>"; };
 		4A8252022347A6DC005BD943 /* Demo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1.h; sourceTree = "<group>"; };
 		4A8252032347A6DC005BD943 /* Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1.cpp; sourceTree = "<group>"; };
+		4A8252092348ED13005BD943 /* Demo2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Demo2.cpp; sourceTree = "<group>"; };
+		4A82520B2348ED13005BD943 /* Demo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2.h; sourceTree = "<group>"; };
 		4AAA6359233E71390020207B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../Engine/cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		4AAA636C233E72D90020207B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AAA636D233E72D90020207B /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -248,10 +252,12 @@
 		4A8251F92347A63F005BD943 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				4A8251FA2347A65C005BD943 /* DemoBase.h */,
-				4A8251FB2347A65C005BD943 /* DemoBase.cpp */,
-				4A8252022347A6DC005BD943 /* Demo1.h */,
 				4A8252032347A6DC005BD943 /* Demo1.cpp */,
+				4A8252022347A6DC005BD943 /* Demo1.h */,
+				4A8252092348ED13005BD943 /* Demo2.cpp */,
+				4A82520B2348ED13005BD943 /* Demo2.h */,
+				4A8251FB2347A65C005BD943 /* DemoBase.cpp */,
+				4A8251FA2347A65C005BD943 /* DemoBase.h */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -423,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
+				4A82520C2348ED13005BD943 /* Demo2.cpp in Sources */,
 				4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */,
 				4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
 				4A8252042347A6DC005BD943 /* Demo1.cpp in Sources */,
@@ -441,6 +448,7 @@
 				4A8252052347A6DC005BD943 /* Demo1.cpp in Sources */,
 				4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */,
 				4A8251FD2347A65C005BD943 /* DemoBase.cpp in Sources */,
+				4A82520D2348ED13005BD943 /* Demo2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
