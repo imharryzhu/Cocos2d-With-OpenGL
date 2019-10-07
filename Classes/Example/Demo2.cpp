@@ -1,4 +1,4 @@
-﻿//
+//
 //  Demo2.cpp
 //  Engine
 //
@@ -16,7 +16,7 @@ void Demo2::initGLProgram() {
 	_glPrgram = GLProgramCache::getInstance()->getGLProgram(GLProgram::SHADER_NAME_POSITION_COLOR);
 }
 
-void Demo2::run() {
+void Demo2::run(float) {
 	if (!_glPrgram) {
 		initGLProgram();
 	}

@@ -4,20 +4,21 @@
 //
 //  Created by harry on 2019/10/5.
 //
-// 使用cocos2d提供的方法，绘制一个三角形
+// 浣跨敤cocos2d鎻愪緵鐨勬柟娉曪紝缁樺埗涓�涓笁瑙掑舰
 
+#ifndef Demo2_h
+#define Demo2_h
 
 #include "DemoBase.h"
-#include "renderer/CCGLProgram.h"
 
 namespace cocos2d {
-class GLProgram;
+    class GLProgram;
 };
 
 class Demo2 : public Demo
 {
 public:
-	virtual void run();
+	virtual void run(float) override;
 
 	void initGLProgram();
 
@@ -25,3 +26,4 @@ private:
 	cocos2d::GLProgram *_glPrgram = nullptr;
 };
 
+#endif

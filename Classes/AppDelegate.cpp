@@ -26,6 +26,7 @@
 #include "DirectorCustom.h"
 #include "Demo1.h"
 #include "Demo2.h"
+#include "Demo3.h"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -125,7 +126,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
 
-	director->runDemo(new Demo2);
+	director->runDemo(new Demo3);
 
     return true;
 }

@@ -15,7 +15,7 @@
 class Demo1 : public Demo
 {
 public:
-    virtual void run();
+    virtual void run(float) override;
     
 	GLuint initGLProgram();
 

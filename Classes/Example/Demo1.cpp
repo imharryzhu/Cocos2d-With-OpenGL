@@ -38,7 +38,7 @@ GLuint Demo1::initGLProgram() {
     int succ;
     char infoLog[512];
 
-    // ≥ı ºªØ∂•µ„◊≈…´∆˜
+    // 初始化顶点着色器
     GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertexShader, 1, &vert, NULL);
     glCompileShader(vertexShader);
@@ -49,7 +49,7 @@ GLuint Demo1::initGLProgram() {
         return 0;
     }
 
-    // ≥ı ºªØ∆¨‘™◊≈…´∆˜
+    // 初始化片元着色器
     GLuint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
     glShaderSource(fragShader, 1, &frag, NULL);
     glCompileShader(fragShader);
@@ -60,6 +60,7 @@ GLuint Demo1::initGLProgram() {
         return 0;
     }
 
+    // GL link
     GLuint glProgram = glCreateProgram();
     glAttachShader(glProgram, vertexShader);
     glAttachShader(glProgram, fragShader);
@@ -77,12 +78,12 @@ GLuint Demo1::initGLProgram() {
     return glProgram;
 }
 
-void Demo1::run() {
+void Demo1::run(float) {
     if (_glPrgram == 0) {
         _glPrgram = initGLProgram();
     }
 
-    // ∂•µ„◊¯±Í∫Õ—’…´ [0]◊Ûœ¬ [1]∂• [2]”“œ¬
+    // 设置顶点坐标和颜色
     float vertices[] = {
         -1, -1,
         1, -1,
@@ -102,7 +103,7 @@ void Demo1::run() {
     // GL use
     glUseProgram(_glPrgram);
 
-    // ªÊ÷∆£¨»˝Ω«–Œ
+    // 绘制三角形
     glDrawArrays(GL_TRIANGLES, 0, 3);
 
     glDeleteProgram(_glPrgram);

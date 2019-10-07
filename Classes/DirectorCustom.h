@@ -23,27 +23,10 @@ public:
     virtual void drawScene() override;
     
 protected:
-	void helleTriangleMVP();
-
-	float _t = 0.0f;
-
 	Demo *_demo;
-	cocos2d::GLProgram *_glProgram;
 
 private:
 	DirectorCustom();
-};
-
-class MyGLPrograms {
-public:
-	static MyGLPrograms* getInstance();
-
-	bool init();
-
-	cocos2d::GLProgram *_glProgram;
-
-private:
-	static MyGLPrograms* _instance;
 };
 
 #endif

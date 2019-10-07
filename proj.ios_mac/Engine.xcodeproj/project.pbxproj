@@ -17,6 +17,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		4A37B54C2349988800551E48 /* Demo3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A37B54B2349988800551E48 /* Demo3.cpp */; };
+		4A37B54D2349988800551E48 /* Demo3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A37B54B2349988800551E48 /* Demo3.cpp */; };
 		4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */; };
 		4A42EA72233F504600DFB4FA /* DirectorCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */; };
 		4A8251FC2347A65C005BD943 /* DemoBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A8251FB2347A65C005BD943 /* DemoBase.cpp */; };
@@ -107,6 +109,8 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		4A37B54A2349988800551E48 /* Demo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3.h; sourceTree = "<group>"; };
+		4A37B54B2349988800551E48 /* Demo3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo3.cpp; sourceTree = "<group>"; };
 		4A42EA6F233F504600DFB4FA /* DirectorCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectorCustom.h; sourceTree = "<group>"; };
 		4A42EA70233F504600DFB4FA /* DirectorCustom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DirectorCustom.cpp; sourceTree = "<group>"; };
 		4A8251FA2347A65C005BD943 /* DemoBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBase.h; sourceTree = "<group>"; };
@@ -256,6 +260,8 @@
 				4A8252022347A6DC005BD943 /* Demo1.h */,
 				4A8252092348ED13005BD943 /* Demo2.cpp */,
 				4A82520B2348ED13005BD943 /* Demo2.h */,
+				4A37B54B2349988800551E48 /* Demo3.cpp */,
+				4A37B54A2349988800551E48 /* Demo3.h */,
 				4A8251FB2347A65C005BD943 /* DemoBase.cpp */,
 				4A8251FA2347A65C005BD943 /* DemoBase.h */,
 			);
@@ -433,6 +439,7 @@
 				4AAA6370233E72D90020207B /* AppDelegate.cpp in Sources */,
 				4A42EA71233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
 				4A8252042347A6DC005BD943 /* Demo1.cpp in Sources */,
+				4A37B54C2349988800551E48 /* Demo3.cpp in Sources */,
 				4A8251FC2347A65C005BD943 /* DemoBase.cpp in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
@@ -447,6 +454,7 @@
 				4A42EA72233F504600DFB4FA /* DirectorCustom.cpp in Sources */,
 				4A8252052347A6DC005BD943 /* Demo1.cpp in Sources */,
 				4AAA6371233E72D90020207B /* AppDelegate.cpp in Sources */,
+				4A37B54D2349988800551E48 /* Demo3.cpp in Sources */,
 				4A8251FD2347A65C005BD943 /* DemoBase.cpp in Sources */,
 				4A82520D2348ED13005BD943 /* Demo2.cpp in Sources */,
 			);
