@@ -31,7 +31,7 @@ void Demo3::initGLProgram() {
 
         void main()
         {
-            gl_FragColor = u_color;
+            gl_FragColor = v_fragmentColor * u_color;
         }
     )";
     
@@ -66,12 +66,10 @@ void Demo3::run(float dt) {
     _t += dt;
     
     
-    float r = sin(_t) / 2 + 0.5f;
-    float g = 0;
-    float b = 0;
+    float delta = abs(sin(_t));
     
     GLint colorLocation = _glPrgram->getUniformLocation("u_color");
-    _glPrgram->setUniformLocationWith4f(colorLocation, r, g, b, 1.0f);
+    _glPrgram->setUniformLocationWith4f(colorLocation, delta, delta, delta, 1.0f);
 
     glDrawArrays(GL_TRIANGLES, 0, 3);
 }
