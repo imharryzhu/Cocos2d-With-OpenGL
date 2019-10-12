@@ -126,7 +126,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
 
-	director->runDemo(new Demo3);
+	director->runDemo(new Demo1);
 
     return true;
 }

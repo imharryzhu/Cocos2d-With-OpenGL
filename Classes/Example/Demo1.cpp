@@ -72,6 +72,7 @@ GLuint Demo1::initGLProgram() {
         return 0;
     }
 
+    // link完就可以删除了
     glDeleteShader(vertexShader);
     glDeleteShader(fragShader);
 
@@ -105,7 +106,5 @@ void Demo1::run(float) {
 
     // 绘制三角形
     glDrawArrays(GL_TRIANGLES, 0, 3);
-
-    glDeleteProgram(_glPrgram);
 }
 

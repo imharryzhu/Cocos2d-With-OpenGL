@@ -33,6 +33,9 @@
     <ClCompile Include="..\Classes\Example\Demo2.cpp">
       <Filter>Classes\Example</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Example\Demo3.cpp">
+      <Filter>Classes\Example</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -51,6 +54,9 @@
       <Filter>Classes\Example</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Example\Demo2.h">
+      <Filter>Classes\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example\Demo3.h">
       <Filter>Classes\Example</Filter>
     </ClInclude>
   </ItemGroup>

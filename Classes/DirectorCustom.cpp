@@ -38,7 +38,7 @@ void DirectorCustom::mainLoop() {
 }
 
 void DirectorCustom::drawScene() {
-    
+	// 计算帧间隔时间 _deltaTime
     calculateDeltaTime();
     
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -47,6 +47,8 @@ void DirectorCustom::drawScene() {
 	if (_demo) {
 		_demo->run(_deltaTime);
 	}
+
+	showStats();
 
     // 显存和屏幕之间的交互，也就是最终绘制到屏幕的操作
     if (_openGLView) {
