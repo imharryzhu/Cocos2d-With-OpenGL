@@ -38,6 +38,7 @@ void DirectorCustom::mainLoop() {
 }
 
 void DirectorCustom::drawScene() {
+
 	// 计算帧间隔时间 _deltaTime
     calculateDeltaTime();
     
